@@ -1,0 +1,38 @@
+<body>     
+  <nav class="navigiton">
+      <input type="checkbox" class="menu-btn" id="menu-btn">
+      <label for="menu-btn" class="menu-icon">
+          <span class="nav-icon"></span>                           
+      </label>
+      <a href="#" class="logo">
+          MSA <span>Cinema</span>
+      </a>
+      <ul class="menu">
+          <li><a routerLink="/home">Home</a></li>                      
+          <li><a routerLink="/movie">Movies / series</a></li>
+          <li><a routerLink="/aboutus">About us</a></li>
+      </ul>
+      <form action="" class="search-box">
+          <input type="text" name="search" autocomplete="off" placeholder="Search Movie" class="search-input" required><i class='bx bx-search' id="photo"></i>        
+      </form>
+  </nav>
+
+  <router-outlet></router-outlet>
+
+
+<footer>
+  <a href="" class="logo">MSA <span>Cinema</span></a>
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+  <span class="copyright">
+      copyright 2023 - Full stack development
+  </span>
+</footer>
+
+</body>

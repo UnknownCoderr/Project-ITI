@@ -1,0 +1,21 @@
+<div class="movie_card" *ngFor="let mmovie of allMovies" id="tomb">
+  <div class="info_section">
+    <div class="movie_header">
+      <img class="locandina" src={{mmovie.Poster}}/>
+      <h2>{{mmovie.Title}}</h2>
+      <h4>{{mmovie.Released}}</h4>
+      <span class="minutes">{{mmovie.Runtime}} </span>
+      <p class="type">{{mmovie.Genre}}</p>
+    </div>
+    <div class="movie_desc">
+      <p class="text">
+        {{mmovie.Plot}}
+      </p>
+      <br>
+      <a href={{mmovie.Trailer}}>
+      <button class="btn btn-dark" onclick="play()"> Watch Trailer</button>
+      </a>
+    </div>
+  </div>
+  <div class="blur_back tomb_back"></div>
+</div>

@@ -1,0 +1,30 @@
+.first{
+  background-image: url('https://media1.dallasobserver.com/dal/imager/u/slideshow/12873373/movie-theater-cred-felix-mooneram-unsplash.jpg') ;
+  color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.k{
+  background-color: rgb(22, 22, 22);
+  height: 15px;
+}
+.kk{
+  opacity: 0%;
+}
+
+#x{
+  font-weight: bolder;
+}
+
+#sora{
+  width: 150%;
+  margin-top: -10%;
+}
+
+#sora2{
+  width: 180%;
+  margin-left: -50%;
+  margin-top: -18%;
+}
